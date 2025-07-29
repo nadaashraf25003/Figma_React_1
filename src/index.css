@@ -1,0 +1,28 @@
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  align-content: center;
+  background-color: #e5e6e7;
+}
+.container {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  background-color: #282d35;
+  margin: 0;
+  width: 550px;
+  height: 550px;
+  margin-top: 3rem;
+  border-radius: 10px;
+  box-shadow: 1px 2px 3px #282d35;
+  background-image: url(/src/assets/reactjs-icon\ 2.svg);
+  background-repeat: no-repeat;
+  background-position: right 80% ;
+
+}
+@media (max-width:590px){
+  .container{
+    width: 95%;
+    
+  }
+}

@@ -1,0 +1,17 @@
+header {
+  display: flex;
+  align-items: center;
+  gap: 10px;
+  background-color: #21222a;
+  padding: 0px 26px;
+  border-radius: 10px 10px 0 0;
+  height: 91px;
+}
+header .title {
+  color: #61dafb;
+  font-weight: 700;
+  font-size: 22.25px;
+}
+svg {
+  margin-top: 5px;
+}

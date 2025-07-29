@@ -1,0 +1,40 @@
+.main p {
+  font-weight: 700;
+  font-size: 39.06px;
+  color: #fff;
+  margin: 57px 0 46px 27px;
+}
+.main ul{
+    width: 380px;
+    height: 190px;
+    margin: 0 2rem;
+}
+.main li {
+  font-weight: 400;
+  font-size: 16px;
+  color: #FFF;
+}
+.main li::marker {
+    color: #61DAFB;
+    font-size: 1.5rem;
+}
+@media (max-width:450px){
+.main p {
+  font-size: 20.06px;
+  margin: 57px 0 46px 30px;
+}
+.main ul{
+    width: 300px;
+    margin: 0 1rem;
+}
+
+}
+@media (max-width:320px){
+.main p {
+  margin: 57px 0 46px 15px;
+}
+.main ul{
+    width: 220px;
+    margin: 0 0.5rem;
+}
+}
