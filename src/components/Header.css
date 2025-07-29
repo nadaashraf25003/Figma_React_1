@@ -6,12 +6,13 @@ header {
   padding: 0px 26px;
   border-radius: 10px 10px 0 0;
   height: 91px;
+  box-shadow: 1px 3px 4px #23272d;
 }
 header .title {
   color: #61dafb;
   font-weight: 700;
   font-size: 22.25px;
 }
-svg {
+img {
   margin-top: 5px;
 }
